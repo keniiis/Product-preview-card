@@ -16,15 +16,17 @@
   </style>
 </head>
 <body>
-  <div class="tarjeta">
-    <picture class="imagen">
+  <main class="tarjeta" role="main">
+    <picture class="imagen" role="banner">
       <source srcset="images/image-product-mobile.jpg" media="(max-width: 375px)">
       <img class="imagen__tarjeta" src="images/image-product-desktop.jpg" alt="image desktop">
     </picture>
       
-    <div class="datos">
+    <div class="datos" role="contentinfo">
       <div class="datos__subtitulo">Perfume</div>
-      <div class="datos__titulo">Gabrielle Essence Eau De Parfum</div>
+      <div>
+        <h1 class="datos__titulo">Gabrielle Essence Eau De Parfum</h1>
+      </div>
       <div class="datos__parrafo">
         <p>A floral, solar and voluptuous interpretation composed by Olivier Polge, 
           Perfumer-Creator for the House of CHANEL.</p>
@@ -34,10 +36,10 @@
         <h3 class="precio__tachado"><del>$169.99</del></h3>
       </div>
       <form action="#" class="boton">
-        <button><img src="images/icon-cart.svg">Add to Cart</button>
+        <button><img src="images/icon-cart.svg" alt="carrito svg">Add to Cart</button>
       </form>
     </div>
-  </div>
+  </main>
 
   
   
